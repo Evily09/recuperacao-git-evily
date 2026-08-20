@@ -20,6 +20,7 @@ int main() {
     printf("Nome: %s\n", nome);
     printf("Idade: %d anos\n", idade);
     printf("Nota: %.1f\n", nota);
+    printf("Cadastro realizado com sucesso!\n");
 
     return 0;
 }
