@@ -20,6 +20,12 @@ int main() {
     printf("Nome: %s\n", nome);
     printf("Idade: %d anos\n", idade);
     printf("Nota: %.1f\n", nota);
+    if (nota >= 6) {
+    printf("Situacao: Aprovado\n");
+} else {
+    printf("Situacao: Reprovado\n");
+}
+    printf("Cadastro realizado com sucesso!\n");
 
     return 0;
 }
